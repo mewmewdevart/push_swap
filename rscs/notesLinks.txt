@@ -1,0 +1,9 @@
+grind --log-file=log_vg --leak-check=full --show-leak-kinds=all --track-origins=yes ./push_swap  100 45 3 7 9
+
+bubble sort 
+
+ARG=$(shuf -i 1-100); ./push_swap $ARG | ./checker_linux $
+
+https://www.youtube.com/watch?v=RfXt_qHDEPw
+
+https://www.youtube.com/watch?v=7ha78yWRDlE
